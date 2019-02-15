@@ -1,5 +1,5 @@
 FROM jetty
-RUN mkdir webapps/inventory
-COPY webapp/* webapps/inventory/
-COPY jetty/* webapps/inventory/
-COPY jetty/barcode.init.js webapps/inventory/barcode.init.js
+RUN mkdir webapps/ROOT
+COPY webapp/* webapps/ROOT/
+COPY jetty/* webapps/ROOT/
+COPY jetty/barcode.init.js webapps/ROOT/barcode.init.js
