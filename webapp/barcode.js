@@ -595,7 +595,7 @@ function parseResponse(barcode, json) {
     var m = date.getMonth() + 1;
     var timestamp = date.getFullYear()+"-"+
       ((m < 10) ? "0" + m : m) + "-" +
-      ((date.getDay() < 10) ? "0" + date.getDay() : date.getDay()) + "_" +
+      ((date.getDate() < 10) ? "0" + date.getDate() : date.getDate()) + "_" +
       ((date.getHours() < 10) ? "0" + date.getHours() : date.getHours()) + ":" +
       ((date.getMinutes() < 10) ? "0" + date.getMinutes() : date.getMinutes()) + ":" +
       ((date.getSeconds() < 10) ? "0" + date.getSeconds() : date.getSeconds());
