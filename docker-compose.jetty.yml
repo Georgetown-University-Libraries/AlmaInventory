@@ -7,6 +7,6 @@ services:
       - 80:8080
     volumes:
       - "./local.prop:/var/data/local.prop"
-      - "./gsheet.prop.json:/var/lib/jetty/webapps/inventory/gsheet.prop.json"
+      - "./gsheet.prop.json:/var/lib/jetty/webapps/ROOT/gsheet.prop.json"
     tty: true
     stdin_open: true

@@ -452,11 +452,12 @@ function getButtonCell() {
 
 function restoreRow(rowarr) {
     if (rowarr == null) return;
-    if (rowarr.length != 12) return;
+    if (rowarr.length != 13) {
+      return;
+    }
 
     var barcode = rowarr.shift();
     var tr = getNewRow(false, barcode);
-
     tr.append($("<td class='location_code'>" + rowarr.shift() + "</td>"));
     tr.append($("<td class='call_number'>" + rowarr.shift() + "</td>"));
     tr.append($("<td class='volume'>" + rowarr.shift() + "</td>"));
