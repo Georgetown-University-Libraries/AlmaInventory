@@ -14,6 +14,11 @@ This video demonstrates a barcode scanning inventory workflow developed by the G
 
 [![Demonstration Video](https://i.ytimg.com/vi/PW_hdI65h10/hqdefault.jpg)](https://www.youtube.com/watch?v=PW_hdI65h10)
 
+## User Documentation created by Georgetown University Library Access Services
+- [Inventory Project Manager Documentation](https://docs.google.com/document/d/1NkPpzIm2H3nn_uvqG9nmpsKK_jzynnSgWUMKhGrmyw4/edit?usp=sharing)
+- [Student Worker Training](https://docs.google.com/document/d/1bfoghQXeTi7Spsz2EPsuwrKCjdztaQZrTG55-fCmhfM/edit?usp=sharing)
+- [Issues Discovered in the Inventory Process - Resolutions](https://docs.google.com/document/d/1yi2HSn9JOjJFwd6BlswaaFpMVYEp4YdU89C7vuJLesE/edit?usp=sharing)
+
 ## Pre-requisites
 
 ### Pre-requisites (Alma)
