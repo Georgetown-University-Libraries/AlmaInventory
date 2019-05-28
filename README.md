@@ -21,6 +21,8 @@ This video demonstrates a barcode scanning inventory workflow developed by the G
 
 ## Pre-requisites
 
+_This application should be deployed into your institution's **web server environment**.  The Dockerfiles in this repository will demonstrate how to deploy this appliaciton using PHP, Node.js or Jetty.  The Dockerfiles are also useful for testing out the application._
+
 ### Pre-requisites (Alma)
 
 The Alma Bib API will be used. https://developers.exlibrisgroup.com/alma/apis/bibs
