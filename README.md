@@ -96,3 +96,9 @@ If you wish to build a customized instance of this Docker image, the following c
 - `docker build -t terrywbrady/alma-inventory-php -f Dockerfile.php .`
 - `docker build -t terrywbrady/alma-inventory-node -f Dockerfile.node .`
 - `docker build -t terrywbrady/alma-inventory-jetty -f Dockerfile.jetty .`
+
+## Technical Questions
+
+Please search the following issues for the resolution of common problems.
+
+- https://github.com/Georgetown-University-Libraries/AlmaInventory/issues
