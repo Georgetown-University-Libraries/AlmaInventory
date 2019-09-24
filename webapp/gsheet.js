@@ -76,7 +76,7 @@ var GSheet = function(proppath) {
             if ($(node).is("hr")) {
                 data += "||";
             } else {
-                data += $(node).text().replace(/\n/g," ").replace(/"/g,"\"\"").replace(/\s/g," ");
+                data += $(node).text().replace(/\n/g," ").replace(/"/g,"\"\"").replace(/\s/g," ").replace(/#/g, " ");
                 if ($(node).is("div:not(:last-child)")) {
                     data += "||";
                 }
