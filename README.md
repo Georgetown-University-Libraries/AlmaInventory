@@ -12,7 +12,7 @@ This code will facilitate an inventory of items cataloged in the Alma integrated
 ## Demonstration Video
 This video demonstrates a barcode scanning inventory workflow developed by the Georgetown University Library.  
 
-[![Demonstration Video](https://i.ytimg.com/vi/PW_hdI65h10/hqdefault.jpg)](https://www.youtube.com/watch?v=PW_hdI65h10)
+[![Demonstration Video](https://i.ytimg.com/vi/K0k8f3cRSJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=K0k8f3cRSJ0)
 
 ## User Documentation created by Georgetown University Library Access Services
 - [Inventory Project Manager Documentation](https://docs.google.com/document/d/1NkPpzIm2H3nn_uvqG9nmpsKK_jzynnSgWUMKhGrmyw4/edit?usp=sharing)
