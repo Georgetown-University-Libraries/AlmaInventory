@@ -232,6 +232,29 @@ function bindEvents() {
     });
   });
 
+  //Activate export to Google Sheets function
+  $("#exportCSV").on("click", function(){
+    var cnt = $("tr.datarow").length;
+    if (cnt == 0) {
+      var msg = $("<div>There is no data to export.  Please scan some barcodes</div>");
+      mydialog("No data available", msg, function() {
+        barcodeDialog();
+      });
+      return;
+    }
+
+    var nodes = $("#restable tr");
+    var itemdata = "data:text/csv;charset=utf-8," + gsheet.makeCsv(nodes);
+    var encodedUri = encodeURI(itemdata);
+    window.open(encodedUri);
+    var msg = $("<div>Please confirm that <b>"+cnt+"</b> barcodes were successfully exported and saved to Google sheets.Click <b>OK</b> delete those barcodes from this page.</div>");
+    mydialog("Clear Barcode Table?", msg, function() {
+      $("tr.datarow").remove();
+      autosave();
+      barcodeDialog();
+    });
+  });
+
   //Activate buttons that change the status of the last item scanned
   $("button.lastbutt").on("click", function() {
     var status = $(this).attr("status");
